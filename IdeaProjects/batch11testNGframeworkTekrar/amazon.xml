@@ -4,14 +4,14 @@
         <classes>
             <class name="com.techproed.tests.D26_AmazonHucreTest">
                 <methods>
-                    <include name="hucreTest"></include>
+                    <include name="hucreTest"/>
                   
                 </methods>
             </class>
             <class name="com.techproed.tests.D26_AmazonSatirSutunSayisi">
                 <methods>
-                    <exclude name="sutunSayisi"></exclude>
-                    <include name="satirSayisi"></include>
+                    <exclude name="sutunSayisi"/>
+                    <include name="satirSayisi"/>
                 </methods>
                 
             </class>
