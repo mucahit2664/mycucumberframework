@@ -30,4 +30,5 @@ public class DataTablePage {
     public WebElement searchBox;
     @FindBy(xpath = "(//td[@class='sorting_1'])[1]")
     public WebElement ilkAramaSonucu;
+
 }

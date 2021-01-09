@@ -61,4 +61,6 @@ public class AmazonStepDefinitions {
         Assert.assertTrue(amazonPage.sonucYaziElementi.getText().contains(kelime));
 
     }
+
+
 }

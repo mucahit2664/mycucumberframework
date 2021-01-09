@@ -10,5 +10,7 @@ C:\Users\pc\IdeaProjects\mycucumberframework\src\test\java\stepdefinitions\Walma
 C:\Users\pc\IdeaProjects\mycucumberframework\src\test\java\utilities\Driver.java
 C:\Users\pc\IdeaProjects\mycucumberframework\src\test\java\runners\SmokeTestRunner.java
 C:\Users\pc\IdeaProjects\mycucumberframework\src\test\java\runners\TestRunner.java
+C:\Users\pc\IdeaProjects\mycucumberframework\src\test\java\stepdefinitions\AutomationPracticeStepDefinitions.java
 C:\Users\pc\IdeaProjects\mycucumberframework\src\test\java\utilities\ConfigReader.java
+C:\Users\pc\IdeaProjects\mycucumberframework\src\test\java\pages\AutomationPracticePage.java
 C:\Users\pc\IdeaProjects\mycucumberframework\src\test\java\pages\WalmartPage.java

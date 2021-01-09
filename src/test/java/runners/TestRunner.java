@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
         features="src/test/resources/features",
         glue="stepdefinitions",
         dryRun=false,
-        tags = "@amazon"
+        tags = " @wait"
 
 // dryRun = false olursa, testleri çalıştırır.
 // dryRun = true  olursa, eksik olan methodları bulur ve size öneride bulunur.

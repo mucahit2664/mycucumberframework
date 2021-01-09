@@ -7,7 +7,7 @@ import org.openqa.selenium.Keys;
 import pages.WalmartPage;
 import utilities.ConfigReader;
 import utilities.Driver;
-public class WalmartStepDefinitions {
+public class  WalmartStepDefinitions {
     WalmartPage walmartPage=new WalmartPage();
     @When("kullanici walmart ana sayfaya gider")
     public void kullanici_walmart_ana_sayfaya_gider() {
