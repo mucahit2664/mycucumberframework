@@ -1,5 +1,5 @@
 Feature: US1013_Demoqa_Wait
-  @wait
+
   Scenario: TC20_kullanici_alertin_yazisini_test_edebilmeli
     When kullanici "demoqa_url" anasayfaya gider
     Then alert yazisina tiklar

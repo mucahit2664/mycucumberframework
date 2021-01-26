@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="34.958">
-<testcase classname="US1013_Demoqa_Wait" name="TC20_kullanici_alertin_yazisini_test_edebilmeli" time="33.218">
-<system-out><![CDATA[When kullanici "demoqa_url" anasayfaya gider................................passed
-Then alert yazisina tiklar..................................................passed
-And 2. Click Me butonuna tiklar.............................................passed
-And Allert'in gorunur olmasini bekler.......................................passed
-Then Allert uzerindeki yazinin “This alert appeared after 5 seconds” oldugunu test eder.passed
-And OK butonuna basip Allert'i kapatir......................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="8.236">
+<testcase classname="US1015_DBUtils ile yapilan sorgular" name="TC_23 Kullanici tHOTEL tablosundan mail fieldini okur" time="7.119">
+<system-out><![CDATA[Given kullanici DBUtils ile CK_Hotels veritabanina baglanir.................passed
+And kullanici DBUtils ile "tHOTEL" tablosundan "EMail" verilerini okur......passed
+Then IDHotel degeri 8 olan kaydin Email bilgisinin "new@email" oldugunu test eder.passed
 ]]></system-out>
 </testcase>
 </testsuite>
