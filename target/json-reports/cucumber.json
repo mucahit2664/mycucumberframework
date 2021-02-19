@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-01-26T20:28:19.088Z",
+        "start_timestamp": "2021-02-08T16:03:58.762Z",
         "line": 3,
         "name": "TC_23 Kullanici tHOTEL tablosundan mail fieldini okur",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4007000000,
+              "duration": 3332000000,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 458000000,
+              "duration": 544000000,
               "status": "passed"
             },
             "line": 5,
@@ -47,8 +47,9 @@
           },
           {
             "result": {
-              "duration": 1673000000,
-              "status": "passed"
+              "error_message": "org.junit.ComparisonFailure: expected:\u003c[thisupdateemail@update.com]\u003e but was:\u003c[new@email]\u003e\r\n\tat org.junit.Assert.assertEquals(Assert.java:117)\r\n\tat org.junit.Assert.assertEquals(Assert.java:146)\r\n\tat dbStepdefinitions.DbWithDBUtils.id_hotel_degeri_olan_kaydin_email_bilgisinin_oldugunu_test_eder(DbWithDBUtils.java:51)\r\n\tat ✽.IDHotel degeri 8 olan kaydin Email bilgisinin \"new@email\" oldugunu test eder(file:///C:/Users/pc/IdeaProjects/mycucumberframework/src/test/resources/features/US1015_DBUtils.feature:6)\r\n",
+              "duration": 1720000000,
+              "status": "failed"
             },
             "line": 6,
             "name": "IDHotel degeri 8 olan kaydin Email bilgisinin \"new@email\" oldugunu test eder",

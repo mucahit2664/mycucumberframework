@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="8.236">
-<testcase classname="US1015_DBUtils ile yapilan sorgular" name="TC_23 Kullanici tHOTEL tablosundan mail fieldini okur" time="7.119">
-<system-out><![CDATA[Given kullanici DBUtils ile CK_Hotels veritabanina baglanir.................passed
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="6.974">
+<testcase classname="US1015_DBUtils ile yapilan sorgular" name="TC_23 Kullanici tHOTEL tablosundan mail fieldini okur" time="5.826">
+<failure message="expected:&lt;[thisupdateemail@update.com]&gt; but was:&lt;[new@email]&gt;" type="org.junit.ComparisonFailure"><![CDATA[Given kullanici DBUtils ile CK_Hotels veritabanina baglanir.................passed
 And kullanici DBUtils ile "tHOTEL" tablosundan "EMail" verilerini okur......passed
-Then IDHotel degeri 8 olan kaydin Email bilgisinin "new@email" oldugunu test eder.passed
-]]></system-out>
+Then IDHotel degeri 8 olan kaydin Email bilgisinin "new@email" oldugunu test eder.failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[thisupdateemail@update.com]> but was:<[new@email]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at dbStepdefinitions.DbWithDBUtils.id_hotel_degeri_olan_kaydin_email_bilgisinin_oldugunu_test_eder(DbWithDBUtils.java:51)
+	at ✽.IDHotel degeri 8 olan kaydin Email bilgisinin "new@email" oldugunu test eder(file:///C:/Users/pc/IdeaProjects/mycucumberframework/src/test/resources/features/US1015_DBUtils.feature:6)
+]]></failure>
 </testcase>
 </testsuite>
